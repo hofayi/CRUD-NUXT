@@ -12,5 +12,8 @@ export default defineNuxtConfig({
   modules: [
     '@pinia/nuxt',
     // '@sidebase/nuxt-auth'
-  ]
+  ],
+  runtimeConfig: {
+    MONGODB_URI: process.env.MONGODB_URI
+  }
 })
