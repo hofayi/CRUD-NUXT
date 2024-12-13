@@ -1,11 +1,13 @@
 <template>
-  <h1>CRUD</h1>
+    <VAppBar>
+        <template v-slot:title>
+            App Nuxt 3
+        </template>
+    </VAppBar>
 </template>
 
 <script setup lang="ts">
 
 </script>
 
-<style>
-
-</style>
+<style scoped></style>

@@ -1,7 +1,5 @@
 <template>
-  <div>
+  <VApp>
     <Navbar />
-    <!-- <NuxtRouteAnnouncer />
-    <NuxtWelcome /> -->
-  </div>
+  </VApp>
 </template>
