@@ -1,7 +1,7 @@
 <template>
     <VAppBar>
         <template v-slot:title>
-            App Nuxt 3
+            App Nuxt 3 - Personajes
         </template>
     </VAppBar>
 </template>
