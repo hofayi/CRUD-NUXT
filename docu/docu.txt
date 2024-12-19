@@ -1,0 +1,19 @@
+- Crear el proyecto
+npx nuxi@latest init <nameProyect>
+
+- Creamos directorios para modularizar como 'pages', 'components', 'stores', 'plugins'
+
+- Agregamos Vuetify
+-- npm i vuetify @mdi/font sass
+-- creamos en el directorio ./plugins el archivo vuetify.ts y añadimos la configuracion de vuetify.
+-- agregamos la configuracion de css y el build de la transpilacion de vuetify en el archivo nuxt.config.ts
+
+- Agregamos Pinia
+-- npm i pinia @pinia/nuxt
+-- agregamos la configuracion del modulo de pinia en el archivo nuxt.config.ts
+
+- Agregamos mongoose
+-- npm i mongoose
+-- creamos en el directorio server la carpeta /plugins y añadimos un archivo mongoose.ts para la configuracion de mongodb.
+-- configuramos el runtimeConfig en nuxt.config.ts
+-- Debemos tener mongodb accesible (Docker image y contenedor, workbench y servicio local corriendo, etc)
