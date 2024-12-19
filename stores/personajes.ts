@@ -60,8 +60,9 @@ export const usePersonajesStore = defineStore('personajes', {
         async editarPersonaje(personaje: IPersonaje) {
             const { data, error } = await useFetch('/api/update-character', {
                 method: 'PATCH',
+                // Aseguramos que el servidor interprete JSON
                 headers: {
-                    'Content-Type': 'application/json', // Asegura que el servidor interprete JSON
+                    'Content-Type': 'application/json',
                 },
                 body: {
                     _id: personaje._id,

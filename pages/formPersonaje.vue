@@ -25,7 +25,6 @@
 </template>
 
 <script setup>
-import { set } from 'mongoose';
 
 const personajeStore = usePersonajesStore()
 const { agregarPersonaje, editarPersonaje } = personajeStore
