@@ -6,6 +6,8 @@
 .cache
 dist
 
+./docu
+
 # Node dependencies
 node_modules
 
